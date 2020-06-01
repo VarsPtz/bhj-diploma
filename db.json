@@ -2,7 +2,7 @@
   "users": [
     {
       "name": "demo",
-      "email": "demo@demo",
+      "email": "demo@demo.ru",
       "password": "demo",
       "id": "1",
       "isAuthorized": true

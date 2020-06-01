@@ -100,7 +100,7 @@ function notEmptyObject(obj) {
 // createRequest({
 //  url: '/user/login',
 //  data: {
-//   email: "demo@demo",
+//   email: "demo@demo.ru",
 //   password: "demo"
 //  },
 //  responseType: "json",
