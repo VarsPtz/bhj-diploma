@@ -62,8 +62,8 @@ class AsyncForm {
    * */
   submit() {
     const outputData = {};
-    outputData.method = this.element.getAttribute("method");
-    outputData.url = this.element.getAttribute("action");
+    // outputData.method = this.element.getAttribute("method");
+    // outputData.url = this.element.getAttribute("action");
     outputData.data = this.getData();
     this.onSubmit(outputData);
   }
