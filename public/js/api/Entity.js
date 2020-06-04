@@ -57,8 +57,9 @@ class Entity {
    * Удаляет информацию о счёте или доходе/расходе
    * (в зависимости от того, что наследуется от Entity)
    * */
-  static remove(id = "", data, callback = (f) => f) {
-    const modifiedData = Object.assign({_method: "DELETE", id: id}, data);
+  static remove(id, data, callback = (f) => f) {
+    const modifiedData = Object.assign({[id]: data}, {_method: "DELETE"});
+      
     return createRequest({
       url: `${this.URL}`,
       data: modifiedData,

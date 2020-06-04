@@ -12,6 +12,20 @@
       "email": "aleks@aleks.ru",
       "password": "aleks",
       "id": "1lvc07v0kaxuekah",
+      "isAuthorized": false
+    },
+    {
+      "name": "user",
+      "email": "user@user.ru",
+      "password": "user",
+      "id": "1lvc03mkkazl05ux",
+      "isAuthorized": false
+    },
+    {
+      "name": "user2",
+      "email": "user2@user2.ru",
+      "password": "user2",
+      "id": "1lvc07pckb10qbag",
       "isAuthorized": true
     }
   ],
@@ -32,9 +46,29 @@
       "id": "3"
     },
     {
+      "name": "ВТБ",
+      "user_id": "1lvc03mkkazl05ux",
+      "id": "1lvc08h8kazl2zox"
+    },
+    {
+      "name": "ТочкаБанк",
+      "user_id": "1lvc03mkkazl05ux",
+      "id": "1lvc08kskazlbqcd"
+    },
+    {
+      "name": "Тинькофф",
+      "user_id": "1lvc03mkkazl05ux",
+      "id": "1lvc08o4kazlghns"
+    },
+    {
       "name": "Сбербанк",
-      "user_id": "1lvc07v0kaxuekah",
-      "id": "1lvc02hkkay5vvm1"
+      "user_id": "1lvc07pckb10qbag",
+      "id": "1lvc06ickb10qztz"
+    },
+    {
+      "name": "ВТБ",
+      "user_id": "1lvc07pckb10qbag",
+      "id": "1lvc080skb10r5u9"
     }
   ],
   "transactions": [
@@ -188,6 +222,46 @@
       "sum": 100,
       "account_id": "1lvc02hkkay5vvm1",
       "created_at": "2020-06-02T18:56:11.224Z"
+    },
+    {
+      "id": "1lvc06xgkazq9cio",
+      "type": "INCOME",
+      "name": "Работа",
+      "sum": 1000,
+      "account_id": "1lvc08h8kazl2zox",
+      "created_at": "2020-06-03T19:12:07.583Z"
+    },
+    {
+      "id": "1lvc04jgkazq9vd1",
+      "type": "EXPENSE",
+      "name": "Продукты",
+      "sum": 100,
+      "account_id": "1lvc08h8kazl2zox",
+      "created_at": "2020-06-03T19:12:32.004Z"
+    },
+    {
+      "id": "1lvc0884kb103e88",
+      "type": "INCOME",
+      "name": "Зарплата",
+      "sum": 1000,
+      "account_id": "1lvc0800kb1033jk",
+      "created_at": "2020-06-04T16:35:12.200Z"
+    },
+    {
+      "id": "1lvc07mckb103snr",
+      "type": "EXPENSE",
+      "name": "Продукты",
+      "sum": 300,
+      "account_id": "1lvc0800kb1033jk",
+      "created_at": "2020-06-04T16:35:30.902Z"
+    },
+    {
+      "id": "1lvc08bskb10rlt4",
+      "type": "EXPENSE",
+      "name": "Продукты",
+      "sum": 100,
+      "account_id": "1lvc06ickb10qztz",
+      "created_at": "2020-06-04T16:54:01.767Z"
     }
   ]
 }
